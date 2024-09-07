@@ -26,19 +26,19 @@ storing it in a database using SQLAlchemy, within the context of a FastAPI appli
  ![Screenshot 2024-09-07 064159](https://github.com/user-attachments/assets/210f5314-6620-420f-9800-d5304ba901a4)
  ## Q&A Chatbot with Document Upload
 - This is a FastAPI application for a simple Q&A chatbot that leverages uploaded documents.
-
+![Screenshot 2024-09-07 064248](https://github.com/user-attachments/assets/cb6df137-da7e-445c-86a4-9324d75e514f)
 ## Features:
 
 - Supports uploading documents through URLs or PDFs.
 - Extracts text content from uploaded documents.
 - Processes user chat requests with a specific chat ID.
 - Finds the most relevant section within the uploaded document based on the user's question using cosine similarity (Note: currently uses a dummy embedding function, needs replacement).
-
+![Screenshot 2024-09-07 064344](https://github.com/user-attachments/assets/7b95402f-b82d-4899-8a53-7649e61b8df9)
 # **FastAPI Chatbot with Document Upload**
 This project implements a simple chatbot that retrieves relevant information from uploaded documents.
-![Screenshot 2024-09-07 064248](https://github.com/user-attachments/assets/cb6df137-da7e-445c-86a4-9324d75e514f)
+
 ## Features:
-![Screenshot 2024-09-07 064344](https://github.com/user-attachments/assets/7b95402f-b82d-4899-8a53-7649e61b8df9)
+
 - Supports uploading documents through URLs or PDFs.
 - Extracts text content from uploaded documents.
 - Processes user questions and identifies the most relevant section based on cosine similarity.
