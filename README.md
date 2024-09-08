@@ -1,3 +1,4 @@
+![Screenshot 2024-09-08 124743](https://github.com/user-attachments/assets/a8e6340c-12a9-4518-b8fd-6af2d6b5993a)
 ![Screenshot 2024-09-07 064118](https://github.com/user-attachments/assets/c911dee9-7f8a-4698-8d2d-6abc10f5d07b)
 # FastAPI
 # **scraping content from a given URL** 
