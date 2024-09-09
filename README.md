@@ -38,7 +38,7 @@ storing it in a database using SQLAlchemy, within the context of a FastAPI appli
 ![Screenshot 2024-09-07 064344](https://github.com/user-attachments/assets/7b95402f-b82d-4899-8a53-7649e61b8df9)
 # **FastAPI Chatbot with Document Upload**
 This project implements a simple chatbot that retrieves relevant information from uploaded documents.
-
+![Screenshot 2024-09-09 065911](https://github.com/user-attachments/assets/471e0d5e-cbbe-47ce-821d-187862b41d90)
 ## Features:
 
 - Supports uploading documents through URLs or PDFs.
@@ -65,16 +65,18 @@ $ uvicorn main:app --host 127.0.0.1 --port 8000
 ### Upload URL:
 $ Bash
 $ curl -X POST http://localhost:8000/upload_url/ -F chat_id=user1 -F url=https://www.example.com/article.html
-
+![Screenshot 2024-09-09 070158](https://github.com/user-attachments/assets/df41bf19-352b-4a14-be97-d5ce0b3bdca0)
 ## Upload PDF: (using tools like curl or Postman)
 Set chat_id in the form data.
 Send a multipart request with the PDF file as file.
 ## Chat interaction:
 $ Bash
 $ curl -X POST http://localhost:8000/chat/ -H 'Content-Type: application/json' -d '{"chat_id": "user1", "question": "What is the capital of France?"}'
+![Screenshot 2024-09-09 070220](https://github.com/user-attachments/assets/1d5ea7a9-f1f0-45a2-a1bc-71ab86e8cc3c)
 
 ## Return
 This will return a JSON response containing the most relevant section from the uploaded document for user1 based on the question. 
 
+![Screenshot 2024-09-09 070252](https://github.com/user-attachments/assets/cbe6712a-e3df-49ca-8f71-e2646f9ed3a2)
 
 
