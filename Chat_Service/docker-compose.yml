@@ -1,0 +1,8 @@
+version: "4.33.1"
+
+services:
+  chat_service:
+    build: .
+    
+    ports:
+      - "5000:5000"
