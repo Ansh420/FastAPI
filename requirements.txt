@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+numpy
+sklearn
+fastapi
+PyPDF2
+uvicorn
+requests
+beautifulsoup4
+uuid
+SQLAlchemy
+
+
