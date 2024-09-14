@@ -1,6 +1,8 @@
 
 ![Screenshot 2024-09-07 064118](https://github.com/user-attachments/assets/c911dee9-7f8a-4698-8d2d-6abc10f5d07b)
 # FastAPI
+# **Demonstration** 
+https://www.loom.com/share/cd1b617cc86b46838e469e908a075ae3?sid=9c269a9a-f0d2-423e-b87f-61682c9553b1
 # **scraping content from a given URL** 
 storing it in a database using SQLAlchemy, within the context of a FastAPI application. It incorporates the following key functionalities:
 
