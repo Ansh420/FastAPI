@@ -60,7 +60,7 @@ This project implements a simple chatbot that retrieves relevant information fro
 ### Run the application:
 $Bash
 
-$ uvicorn main:app --host 127.0.0.1 --port 8000
+$ uvicorn main:**app --host 127.0.0.1 --port 8000**
 
 
 ### Upload documents:
